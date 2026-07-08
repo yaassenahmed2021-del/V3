@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         const { key } = req.body;
 
         // قائمة المفاتيح المسموح بها فقط
-        const validKeys = ["CRR-MM-2026-OLODL", "MSKLI-202678"];
+        const validKeys = ["CRR-MM-2026-OLODL", "MSKLI-202678", "طيزك فاجرة يا محمود فرغلي سردينة"];
 
         if (validKeys.includes(key)) {
             // إذا وجد المفتاح
